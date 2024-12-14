@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0.5rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    color: whitesmoke;
+   font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lebron {
+    width: 350px;
+    height: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.malong {
+    width: 350px;
+    height: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.barry {
+    width: 350px;
+    height: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 20%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover, a:active {
+    color: firebrick;
+}
+
+
+/* FIRST PART */
+
+.basket {
+    color: midnightblue;
+    text-decoration: underline aqua;
+}
+
+.ping {
+    color: midnightblue;
+    text-decoration: underline aqua;
+}
+
+.base {
+    color: midnightblue;
+    text-decoration: underline aqua;
+}
+
+
+/* SECOND PART */
+
+.player1 {
+    color: teal;
+}
+
+.player2 {
+    color: teal;
+}
+
+.player3 {
+    color: teal;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.symbols {
+    list-style-type: none;
+}
+
+
+
+.bond {
+    background-color: blue;
+    border: 2px solid whitesmoke;
+    border-radius: 2.5%;
+    margin: 1rem;
+}
+
+ .container {
+  text-align: left;
+  justify-content: center;
+  display: grid;
+}
+
+/* FIRST */
+
+ .sport1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    border: 2px double whitesmoke;
+} 
+
+ .box1 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: grid;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+ }
+
+/* SECOND */
+
+  .sport2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: translateX(630px);  
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    border: 2px double whitesmoke;
+    align-items: flex-start;
+}  
+
+  .box2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: translateX(600px); 
+    display: grid;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+ }  
+ 
+ /* THIRD */
+
+.sport3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: translateX(250px);
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    border: 2px double whitesmoke;
+}
+
+ .box3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: grid;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+} 
+
+/* FOUR */
+
+.sport4 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: translateX(970px);
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    border: 2px double whitesmoke;
+    border-radius: 50%;
+}
+
+.box4 {
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: grid;
+    width: 200px;
+    height: 195px;
+    position: absolute
+} 
+
+footer {
+    background-color: blue;
+}
+   
